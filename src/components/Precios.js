@@ -22,6 +22,11 @@ export const precios = [
     {
         servicio: 'Diagnostico',
         id: 5,
-        precio: '1500'
+        precio: 1500
+    },
+    {
+        servicio: "test",
+        id: 6,
+        precio: 33333333
     }
 ]

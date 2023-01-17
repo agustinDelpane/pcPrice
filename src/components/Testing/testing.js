@@ -80,3 +80,14 @@ console.log({precios})
 }
 
 export default SrvMap
+
+
+/*SimpleCount.js*/
+
+function suma (a, b) {
+  return( a + b );
+}
+let resultado = suma(2, 5)
+
+
+let suma = () => srv.reduce((a, p) => a= a+p.precio, 0)
